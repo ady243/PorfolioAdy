@@ -18,13 +18,13 @@ const Sliderbar = () => {
 
   return (
     <div>
-      <Image
+      {/* <Image
         src="/ady.jpg"
         alt="user avatar"
         className="w-32 mx-auto rounded-full"
         width={207}
         height={260}
-      />
+      /> */}
       <h3 className="my-4 space-x-2 text-3xl font-medium tracking-wider font-classic">
         <span className="text-red-500">Ady </span>
         Masivi<br></br>
