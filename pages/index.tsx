@@ -42,20 +42,10 @@ const Home = () => {
 
 export default Home;
 
-export const getServerSideProps = async (
-  context: GetServerSidePropsContext
-) => {
-  const res = await fetch("http://localhost:3000/api/services");
-  const data = await res.json();
-
-  return {
-    props: {
-      services: data.services,
-    },
-  };
-};
-// export const getStaticProps = async (_context: GetStaticPropsContext) => {
-//   const res = await fetch("http://localhost:3000/api/services");
+// export const getServerSideProps = async (
+//   context: GetServerSidePropsContext
+// ) => {
+//   const res = await fetch("localhost:3000/api/services");
 //   const data = await res.json();
 
 //   return {

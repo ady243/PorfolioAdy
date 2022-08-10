@@ -25,13 +25,7 @@ const Sliderbar = () => {
         width={207}
         height={260}
       />
-      {/* <Image
-        url="https://www.noelshack.com/2022-32-3-1660092085-whatsapp-image-2022-07-06-at-1-06-12-pm.jpeg"
-        alt="user avatar"
-        className="w-32 mx-auto rounded-full"
-        width={207}
-        height={260}
-      /> */}
+
       <h3 className="my-4 space-x-2 text-3xl font-medium tracking-wider font-classic">
         <span className="text-red-500">Ady </span>
         Masivi<br></br>
