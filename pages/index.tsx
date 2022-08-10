@@ -28,7 +28,7 @@ const Home = () => {
           {services.map((services) => (
             // eslint-disable-next-line react/jsx-key
             <div
-              className="col-span-2 bg-gray-200 rounded-lg dark:bg-dark-300 dark:bg-dark-500 md:col-span-1"
+              className="col-span-2 bg-gray-200 rounded-lg dark:bg-dark-300 md:col-span-1"
               key={services.title}
             >
               <ServiceCard service={services} />
