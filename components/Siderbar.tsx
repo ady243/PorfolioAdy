@@ -19,7 +19,7 @@ const Sliderbar = () => {
   return (
     <div>
       <Image
-        src="/ady.jpg"
+        url="https://www.noelshack.com/2022-32-3-1660092085-whatsapp-image-2022-07-06-at-1-06-12-pm.jpeg"
         alt="user avatar"
         className="w-32 mx-auto rounded-full"
         width={207}
