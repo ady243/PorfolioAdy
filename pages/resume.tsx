@@ -25,7 +25,7 @@ function resume() {
               BTS sérvice informatique aux organisations / SLAM
             </p>
 
-            <p className="my-3"> Brevet de technicien supérieur - 2020</p>
+            <p className="my-3"> Brevet de technicien supérieur - 2019</p>
           </div>
         </div>
         <div>
@@ -49,7 +49,7 @@ function resume() {
               Développeur web - Stage :{" "}
             </h5>
             <p className="font-semibold"></p>
-            <p className="my-3">Mai 2020 - Aout 2020 : Why-not Paris</p>
+            <p className="my-3">Mai 2019 - Aout 2019 : Why-not Paris</p>
           </div>
         </div>
 
