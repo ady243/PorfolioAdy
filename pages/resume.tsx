@@ -19,6 +19,14 @@ function resume() {
             </p>
             <p className="my-3"></p>
           </div>
+          <div>
+            <h5 className="my-2 text-xl font-bold">COURS DIDEROT</h5>
+            <p className="font-semibold">
+              BTS sérvice informatique aux organisations / SLAM
+            </p>
+
+            <p className="my-3"> Brevet de technicien supérieur - 2020</p>
+          </div>
         </div>
         <div>
           <h5 className="my-3 text-2xl font-bold">
@@ -34,16 +42,7 @@ function resume() {
         </div>
       </div>
       <div className="grid gap-6 md:grid-cols-2">
-        <div>
-          <div>
-            <h5 className="my-2 text-xl font-bold">COURS DIDEROT</h5>
-            <p className="font-semibold">
-              BTS sérvice informatique aux organisations / SLAM
-            </p>
-
-            <p className="my-3"> Brevet de technicien supérieur - 2020</p>
-          </div>
-        </div>
+        <div></div>
         <div>
           <div>
             <h5 className="my-2 text-xl font-bold">
