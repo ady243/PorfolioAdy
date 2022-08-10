@@ -7,7 +7,6 @@ import {
 } from "react-icons/ai";
 import { GoLocation } from "react-icons/go";
 import { GiTie } from "react-icons/gi";
-import Image from "next/image";
 import { useTheme } from "next-themes";
 
 const Sliderbar = () => {
@@ -20,7 +19,7 @@ const Sliderbar = () => {
   return (
     <div>
       <img
-        src="https://www.noelshack.com/2022-32-3-1660092085-whatsapp-image-2022-07-06-at-1-06-12-pm.jpeg"
+        src="https://zupimages.net/up/22/32/qhgq.jpeg"
         alt="user avatar"
         className="w-32 mx-auto rounded-full"
         width={207}
