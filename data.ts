@@ -167,12 +167,22 @@ export const projects: IProject[] = [
   },
   {
     name: "Listen",
-    description: "Une application de lecteur musique 100% next.js ",
+    description: "Une application web de lecteur musique 100% next.js ",
     image_path: "images/listen.jpg",
-    deployed_url: "https://github.com/ady243/Listen",
-    github_url: "git@github.com:ady243/Knext-Express.ady",
+    deployed_url: "",
+    github_url: "https://github.com/ady243/Listen",
     category: ["NextJS"],
     key_taches: ["next", "Bootstrap", "CSS", "TailwindCSS"],
+  },
+  {
+    name: "BasicAPP Moovies",
+    description:
+      "Une petite application web qui permet de lire les descriptions, de liker & unliker les films  ",
+    image_path: "images/basicmoovies.jpg",
+    deployed_url: "https://basicappmovies.vercel.app/",
+    github_url: "https://github.com/ady243/test-technique",
+    category: ["ReactJs"],
+    key_taches: ["CSS"],
   },
   {
     name: "Data Base",
