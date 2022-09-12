@@ -175,7 +175,7 @@ export const projects: IProject[] = [
     key_taches: ["next", "Bootstrap", "CSS", "TailwindCSS"],
   },
   {
-    name: "BasicAPP Moovies",
+    name: "BasicAPP Movies",
     description:
       "Une petite application web qui permet de lire les descriptions, de liker & unliker les films  ",
     image_path: "images/basicmoovies.jpg",
