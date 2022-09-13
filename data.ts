@@ -10,7 +10,7 @@ export const services: Iservices[] = [
   {
     Icon: RiComputerLine,
     title: "Front-end Deveveloppement",
-    about: "Html, css, Javascript, NextJs, ReactJs",
+    about: "Html, css, Javascript, NextJs, ReactJs, PHP",
   },
   {
     Icon: FaServer,
@@ -84,6 +84,11 @@ export const languages: ISkill[] = [
   },
   {
     name: "Kotlin",
+    level: "55%",
+    Icon: BsCircleFill,
+  },
+  {
+    name: "PHP",
     level: "55%",
     Icon: BsCircleFill,
   },
