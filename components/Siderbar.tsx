@@ -19,7 +19,7 @@ const Sliderbar = () => {
   return (
     <div>
       <img
-        src="https://zupimages.net/up/22/37/e9mo.jpeg"
+        src="https://zupimages.net/up/22/42/5uiu.jpeg"
         alt="user avatar"
         className="w-32 mx-auto rounded-full"
         width={207}
