@@ -12,6 +12,14 @@ function resume() {
             <u>Educations</u>
           </h5>
           <div>
+            <h5 className="my-2 text-xl font-bold">WebItech</h5>
+            <p className="font-semibold">Master</p>
+            <p className="my-3">
+              Ecole de spécialisation en dévéloppement web - 2022-2024
+            </p>
+            <p className="my-3"></p>
+          </div>
+          <div>
             <h5 className="my-2 text-xl font-bold">CFA SUP DE VINCI</h5>
             <p className="font-semibold">Bachelor 3</p>
             <p className="my-3">
