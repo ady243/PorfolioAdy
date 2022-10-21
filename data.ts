@@ -146,7 +146,7 @@ export const projects: IProject[] = [
     name: "Blog Post",
     description: "Application web de post commentaire et de création de compte",
     image_path: "images/frontblog.jpg",
-    deployed_url: "",
+    deployed_url: "https://todoreact-livid.vercel.app/",
     github_url: "https://github.com/ady243/todoreact",
     category: ["ReactJs"],
     key_taches: ["Css", "ReactJs"],
