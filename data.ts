@@ -1,7 +1,7 @@
 import { AiOutlineAntDesign, AiOutlineApi, AiFillSignal } from "react-icons/ai";
 import { RiComputerLine } from "react-icons/ri";
 import { MdDeveloperMode } from "react-icons/md";
-import { FaServer } from "react-icons/fa";
+import { FaServer, FaDatabase } from "react-icons/fa";
 import { BsCircleFill } from "react-icons/bs";
 
 import { IProject, Iservices, ISkill } from "./type";
@@ -13,19 +13,24 @@ export const services: Iservices[] = [
     about: "Html, css, Javascript, NextJs, ReactJs, PHP",
   },
   {
+    Icon: MdDeveloperMode,
+    title: "Application Developpement",
+    about: "Java, Kotlin, ReactNative",
+  },
+  {
     Icon: FaServer,
     title: "Backend Developpement",
-    about: "Node : (Express, KnexJs), Spring Boot, MongoDB",
+    about: "Node : (Express, KnexJs), Spring Boot",
+  },
+  {
+    Icon: FaDatabase,
+    title: "Base de données",
+    about: "MySQL, MongoDB",
   },
   {
     Icon: AiOutlineApi,
     title: "Gestion Api",
     about: "GraphQl",
-  },
-  {
-    Icon: MdDeveloperMode,
-    title: "Application Developpement",
-    about: "Java, Kotlin, ReactNative",
   },
 
   {
