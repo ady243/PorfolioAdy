@@ -58,27 +58,31 @@ function resume() {
       <div className="grid gap-6 md:grid-cols-2">
         <div></div>
         <div>
-          <div>
+          <div className="stage">
             <h5 className="my-2 text-xl font-bold">
               Développeur web - Stage :{" "}
             </h5>
             <p className="font-semibold"></p>
-            <p className="my-3">Mai 2019 - Aout 2019 : Why-not Paris</p>
+            <p className="my-3 ">Mai 2019 - Aout 2019 : Why-not Paris</p>
           </div>
         </div>
 
-        <div className="grid gap-6 md:grid-cols-2 ">
+        <div className="grid gap-6 md:grid-cols-2">
           <div>
-            <h5 className="my-3 text-2xl fonr-bold">Langages & Frameworks</h5>
-            <div className="my-2">
+            <h5 className="my-3 text-2xl fonr-bold competences">
+              Langages & Frameworks
+            </h5>
+            <div className="my-2 competences">
               {languages.map((languages, i) => (
                 <Bar data={languages} key={i} />
               ))}
             </div>
           </div>
           <div>
-            <h5 className="my-3 text-2xl fonr-bold">Base de données</h5>
-            <div className="my-2">
+            <h5 className="my-3 text-2xl fonr-bold competences">
+              Base de données
+            </h5>
+            <div className="my-2 competences">
               {database.map((database, i) => (
                 <Bar data={database} key={i} />
               ))}
@@ -86,8 +90,10 @@ function resume() {
           </div>
 
           <div>
-            <h5 className="my-3 text-2xl fonr-bold">outils et logiciels</h5>
-            <div className="my-2">
+            <h5 className="my-3 text-2xl fonr-bold competences">
+              outils et logiciels
+            </h5>
+            <div className="my-2 competences">
               {tools.map((tool, i) => (
                 <Bar data={tool} key={i} />
               ))}

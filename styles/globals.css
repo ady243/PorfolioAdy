@@ -12,3 +12,17 @@ body {
   font-family: sans-serif;
   color: #354358;
 }
+
+.stage {
+  margin-top: -60%;
+}
+
+@media (max-width: 600px) {
+  .stage {
+    margin-top: 10%;
+  }
+}
+
+.competences {
+  margin-left: 20%;
+}
