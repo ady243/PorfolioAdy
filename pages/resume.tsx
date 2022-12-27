@@ -20,6 +20,12 @@ function resume() {
             <p className="my-3"></p>
           </div> */}
           <div>
+            <h5 className="my-2 text-xl font-bold">ESGI</h5>
+            <p className="font-semibold">Master</p>
+            <p className="my-3">Ecole supérieur d'ingénierie du web</p>
+            <p className="my-3"></p>
+          </div>
+          <div>
             <h5 className="my-2 text-xl font-bold">CFA SUP DE VINCI</h5>
             <p className="font-semibold">Bachelor 3</p>
             <p className="my-3">
