@@ -19,7 +19,6 @@ const Sliderbar = () => {
         width={207}
         height={260}
       />
-
       <h3 className="my-4 space-x-2 text-3xl font-medium tracking-wider font-classic">
         <span className="text-red-500">Ady </span>
         Masivi<br></br>
@@ -28,7 +27,6 @@ const Sliderbar = () => {
       <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-100 ">
         Développeur web
       </p>
-
       <a
         className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-100"
         href=""
@@ -38,7 +36,6 @@ const Sliderbar = () => {
         Télécharger le Resumé
       </a>
       {/* //social media icon */}
-
       <div className="flex justify-around w-9/12 mx-auto my-5 text-yellow-500 md:w-full">
         <a href="#">
           <AiFillInstagram className="w-8 h-8 cursor-pointer" />
@@ -53,7 +50,6 @@ const Sliderbar = () => {
           <AiFillGitlab className="w-8 h-8 cursor-pointer" />
         </a>
       </div>
-
       {/* //address*/}
       <div
         className="py-4 my-5 bg-gray-200 dark:bg-dark-100"
@@ -74,7 +70,7 @@ const Sliderbar = () => {
         Email
       </button>
       <br></br>
-
+      <p>Thème</p>
       <BoutonTheme />
       <footer className="py-3 my-4">
         <ul className="pb-3 mb-3 nav justify-content-center border-bottom"></ul>
