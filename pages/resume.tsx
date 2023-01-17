@@ -28,15 +28,13 @@ function resume() {
           <div>
             <h5 className="my-2 text-xl font-bold">CFA SUP DE VINCI</h5>
             <p className="font-semibold">Bachelor 3</p>
-            <p className="my-3">
-              Ecole de spécialisation en dévéloppement web - 2022
-            </p>
+            <p className="my-3">Ecole de spécialisation en dévéloppement web</p>
             <p className="my-3"></p>
           </div>
           <div>
             <h5 className="my-2 text-xl font-bold">COURS DIDEROT</h5>
             <p className="font-semibold">
-              BTS sérvice informatique aux organisations / SLAM
+              BTS sérvice informatique aux organisations (SLAM)
             </p>
 
             <p className="my-3"> Brevet de technicien supérieur - 2019</p>
