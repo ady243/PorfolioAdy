@@ -3,16 +3,22 @@
 @tailwind utilities;
 
 body {
-  background-color: #020929;
   font-family: sans-serif;
 }
-
 body {
-  background-color: rgb(13, 34, 55);
-  font-family: sans-serif;
-  color: black;
+  background-color: hsl(224, 90%, 15%);
 }
-
+@keyframes anim {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 .stage {
   margin-top: -60%;
 }
