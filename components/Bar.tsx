@@ -7,9 +7,9 @@ const Bar: FunctionComponent<{
   const bar_width = `${level}%`;
 
   return (
-    <div className="my-2 text-white bg-gray-300 rounded-full dark:bg-dark-300 dark:bg-dark-100">
+    <div className="my-8 text-white bg-gray-300 rounded-full dark:bg-indigo-999 dark:bg-dark-100">
       <div
-        className="flex px-4 py-1 rounded-full items center bg-gradient-to-r from-red-600 to-blue to-yellow-400 lang"
+        className="flex px-4 py-1 rounded-full items center bg-gradient-to-r from-tokos to-blue to-autres lang"
         style={{ width: level }}
       >
         <Icon className="mr-3" />

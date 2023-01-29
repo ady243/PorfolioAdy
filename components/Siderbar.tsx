@@ -7,11 +7,17 @@ import {
 } from "react-icons/ai";
 import { GoLocation } from "react-icons/go";
 import { GiTie } from "react-icons/gi";
+import {
+  UilEnvelopeMinus,
+  UilMapPin,
+  UilArrowToBottom,
+  UilLaptop,
+} from "@iconscout/react-unicons";
 import BoutonTheme from "./BoutonTheme";
 
 const Sliderbar = () => {
   return (
-    <div>
+    <div className="">
       <img
         src="https://zupimages.net/up/22/42/5uiu.jpeg"
         alt="user avatar"
@@ -20,23 +26,24 @@ const Sliderbar = () => {
         height={260}
       />
       <h3 className="my-4 space-x-2 text-3xl font-medium tracking-wider font-classic">
-        <span className="text-red-500">Ady </span>
+        <span className="text-tokos">Ady </span>
         Masivi<br></br>
         <span>Masanzambi</span>
       </h3>
-      <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-100 ">
+      <p className="flex justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-autres">
+        <UilLaptop className="w-6 h-6 " />
         Développeur web
       </p>
       <a
-        className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-100"
+        className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-tokos"
         href=""
         download="name"
       >
-        <GiTie className="w-6 h-6" />
+        <UilArrowToBottom className="w-6 h-6 animate-bounce" />
         Télécharger le Resumé
       </a>
       {/* //social media icon */}
-      <div className="flex justify-around w-9/12 mx-auto my-5 text-yellow-500 md:w-full">
+      <div className="flex justify-around w-9/12 mx-auto my-5 text-autres md:w-full">
         <a href="#">
           <AiFillInstagram className="w-8 h-8 cursor-pointer" />
         </a>
@@ -56,25 +63,33 @@ const Sliderbar = () => {
         style={{ marginLeft: "-1rem", marginRight: "-1rem" }}
       >
         <div className="flex items-center justify-center space-x-2">
-          <GoLocation />
+          <UilMapPin />
           <span>Ile de france</span>
         </div>
         <p className="my-2">masiviady7@gmail.com</p>
-        <p className="my-2">0661172371</p>
       </div>
       {/* //email buttom*/}
-      <button
-        className="w-8/12 px-2 py-2 my-2 rounded-full bg-gradient-to-r from-red-600 to-blue to-yellow-400 focus:outline-none"
-        onClick={() => window.open("mailto:masiviady7@gmail.com")}
-      >
-        Email
-      </button>
+      <div className="email">
+        <button
+          className="flex px-2 py-2 my-8 rounded-full w-8/24 bg-gradient-to-r from-tokos to-autres focus:outline-none "
+          style={{
+            marginLeft: "2rem",
+
+            textAlign: "center",
+            justifyContent: "center",
+          }}
+          onClick={() => window.open("mailto:masiviady7@gmail.com")}
+        >
+          <UilEnvelopeMinus /> envoyer un e-mail
+        </button>
+      </div>
+
       <br></br>
       <p>Thème</p>
       <BoutonTheme />
-      <footer className="py-3 my-4">
+      <footer className="py-3 my-3">
         <ul className="pb-3 mb-3 nav justify-content-center border-bottom"></ul>
-        <p className="text-center text-muted">
+        <p className="text-center mt-80 text-muted">
           ©2022 adymasivi. All rigth reserved
         </p>
       </footer>

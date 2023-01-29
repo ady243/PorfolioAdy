@@ -16,11 +16,19 @@ module.exports = {
 
     extend: {
       colors: {
+        peace: "#581c87",
+        tokos: "#2563eb",
+        autre: "#c084fc",
+        autres: "#4c1d95",
+        iconc: "#a855f7",
+        back: "#1e3a8a",
+        bleupeace: "#93c5fd",
         green: {
           DEFAULT: "#00f260",
         },
         dark: {
           DEFAULT: "#0101010",
+
           100: "#0a0b0e",
           200: "#0f1115",
           300: "#0f1115",

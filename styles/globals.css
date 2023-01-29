@@ -3,14 +3,14 @@
 @tailwind utilities;
 
 body {
-  background-color: black;
+  background-color: #020929;
   font-family: sans-serif;
 }
 
 body {
-  background-color: black;
+  background-color: rgb(13, 34, 55);
   font-family: sans-serif;
-  color: #354358;
+  color: black;
 }
 
 .stage {
@@ -21,17 +21,17 @@ body {
   .stage {
     margin-top: 10%;
   }
+  .email {
+    margin-left: 15%;
+  }
 }
 
 .competences {
   margin-left: 2%;
 }
+
 .lang:hover {
-  background: linear-gradient(
-    90deg,
-    rgba(16, 115, 236, 0.933),
-    rgba(243, 78, 1, 0.933)
-  );
+  background: linear-gradient(90deg, #6103d4, #8504a5ee);
   animation: lang 2.5s infinite ease-in;
   cursor: pointer;
 }
@@ -84,12 +84,12 @@ body {
   border-radius: 20px;
   left: 0.3em;
   bottom: 0.3em;
-  background-color: rgb(219, 198, 2);
+  background-color: #f7fdfff3;
   transition: 0.4s;
 }
 
 input:checked + .slider {
-  background-color: #ffffff;
+  background-color: #35043e;
   border-radius: 2px solide black;
 }
 
@@ -110,7 +110,7 @@ input:checked + .slider:before {
   position: absolute;
   content: "";
   background-color: rgb(0, 0, 0);
-  transition: ease 0.4s;
+  transition: ease 1.5s;
 }
 
 input:checked + .slider::after {

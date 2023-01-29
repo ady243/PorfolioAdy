@@ -10,7 +10,6 @@ function BoutonTheme() {
 
   return (
     <>
-      <button></button>
       <label className="switch">
         <input
           id="icon_prefix"

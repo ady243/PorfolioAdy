@@ -1,4 +1,5 @@
 import { Html, Head, Main, NextScript } from "next/document";
+// import "./document.css";
 
 export default function Document() {
   return (
@@ -11,10 +12,12 @@ export default function Document() {
           rel="stylesheet"
         ></link>
       </Head>
-      <body className="bg-gradient-to-r from-yellow-500 to-red-500 dark:from-dark-500 dark:to-dark-700 dark:text-white">
+      <body className="bg-gradient-to-r dark:from-autres dark:to-tokos dark:text-white backcolor">
         <Main />
         <NextScript />
       </body>
     </Html>
   );
 }
+
+//  from-yellow-500 to-red-500
