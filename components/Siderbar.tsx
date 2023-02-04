@@ -1,17 +1,14 @@
 /* eslint-disable @next/next/no-img-element */
-import {
-  AiFillGithub,
-  AiFillGitlab,
-  AiFillLinkedin,
-  AiFillInstagram,
-} from "react-icons/ai";
-import { GoLocation } from "react-icons/go";
-import { GiTie } from "react-icons/gi";
+
 import {
   UilEnvelopeMinus,
   UilMapPin,
   UilArrowToBottom,
   UilLaptop,
+  UilGitlab,
+  UilGithubAlt,
+  UilLinkedinAlt,
+  UilInstagram,
 } from "@iconscout/react-unicons";
 import BoutonTheme from "./BoutonTheme";
 
@@ -19,7 +16,7 @@ const Sliderbar = () => {
   return (
     <div className="">
       <img
-        src="https://zupimages.net/up/22/42/5uiu.jpeg"
+        src="https://zupimages.net/up/23/05/x0mx.jpeg"
         alt="user avatar"
         className="w-32 mx-auto rounded-full"
         width={207}
@@ -45,16 +42,16 @@ const Sliderbar = () => {
       {/* //social media icon */}
       <div className="flex justify-around w-9/12 mx-auto my-5 text-autres md:w-full">
         <a href="#">
-          <AiFillInstagram className="w-8 h-8 cursor-pointer" />
+          <UilInstagram className="w-8 h-8 cursor-pointer" />
         </a>
         <a href="https://www.linkedin.com/in/ady-masivi-8547b41a7/">
-          <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
+          <UilLinkedinAlt className="w-8 h-8 cursor-pointer" />
         </a>
         <a href="https://github.com/ady243">
-          <AiFillGithub className="w-8 h-8 cursor-pointer" />
+          <UilGithubAlt className="w-8 h-8 cursor-pointer" />
         </a>
         <a href="https://gitlab.com/ady243">
-          <AiFillGitlab className="w-8 h-8 cursor-pointer" />
+          <UilGitlab className="w-8 h-8 cursor-pointer" />
         </a>
       </div>
       {/* //address*/}
